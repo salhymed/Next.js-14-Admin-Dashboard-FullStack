@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 1rem;
+}
+.user {
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.userInfo {
+    display: flex;
+    flex-direction: column;
+}
+.userInfo .role {
+    color: var(--textSoft);
+    font-weight: 200;
+
+}
+.user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.list li{
+    display: flex;
+    flex-direction: column;
+}
+.cat {
+    color: var(--textSoft);
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 1rem;
+}
+
