@@ -4,21 +4,25 @@
     position: sticky;
     top: 1rem;
 }
+
 .user {
     padding: 1rem;
     display: flex;
     align-items: center;
     gap: 1rem;
 }
+
 .userInfo {
     display: flex;
     flex-direction: column;
 }
+
 .userInfo .role {
     color: var(--textSoft);
     font-weight: 200;
 
 }
+
 .user img {
     width: 40px;
     height: 40px;
@@ -26,10 +30,11 @@
     object-fit: cover;
 }
 
-.list li{
+.list li {
     display: flex;
     flex-direction: column;
 }
+
 .cat {
     color: var(--textSoft);
     font-weight: 400;
@@ -37,3 +42,29 @@
     padding: 1rem;
 }
 
+.logout {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    color: var(--text);
+    border: none;
+    gap: 0.5rem;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.logout .icon {
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+}
+
+.logout .title {
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.logout:hover,
+.logout.active {
+    background-color: var(--bg);
+    transform: scale(1.03);
+}

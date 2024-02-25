@@ -76,12 +76,6 @@ const menuItems = [
         title: "Help",
         path: "/dashboard/help",
         icon: <MdHelpCenter />
-      },
-      {
-        id: 3,
-        title: "Logout",
-        path: "/dashboard/logout",
-        icon: <MdLogout />
       }
     ]
 
@@ -118,6 +112,14 @@ const Sidebar = () => {
           })
         }
       </ul>
+      <button className={styles.logout}>
+        <span className={styles.icon}>
+          <MdLogout />
+        </span>
+        <span className={styles.title}>
+          Logout
+        </span>
+      </button>
     </div>
   )
 }
