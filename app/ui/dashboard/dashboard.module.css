@@ -1,44 +1,43 @@
-.container{
+.container {
     display: flex;
 }
+
 .menu {
     flex: 1;
     background-color: var(--bgSoft);
     height: 100vh;
-    /* padding: 1rem; */
+}
 
-}
-.content{
+.content {
     flex: 5;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
 }
+
 .wrapper {
     display: grid;
-    grid-template-columns: 3fr 1fr ;
+    grid-template-columns: 3fr 1fr;
     margin-top: 1.5rem;
     gap: 1rem;
 }
+
 .main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
+
 .cards {
     display: flex;
     gap: 1rem;
 }
+
 .chart {
     display: flex;
     width: 100%;
 }
+
 .side {
 
     display: grid;
     grid-template-columns: 1fr;
-    background-color: var(--bgSoft);
-    border-radius: 10px;
-    padding: 1rem;
-
-
-
 }
