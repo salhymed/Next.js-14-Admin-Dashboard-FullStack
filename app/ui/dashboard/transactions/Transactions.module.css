@@ -1,0 +1,60 @@
+.container {
+    padding: 1rem;
+    background-color: var(--bgSoft);
+    border-radius: 10px;
+}
+
+.container table {
+    width: 100%;
+}
+
+.container table th {
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+.container table tr:hover {
+    background-color: var(--bg);
+
+}
+
+.container table td {
+    font-weight: 200;
+    padding: 10px 5px;
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.name img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.status {
+    /* background-color:blueviolet; */
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-weight: 300;
+}
+
+.success {
+    background-color: darkcyan;
+}
+
+.failed {
+    background-color: tomato;
+}
+
+.pending {
+    background-color: orange;
+}
+
+.cancelled {
+    background-color: lightgray;
+    color: black;
+}

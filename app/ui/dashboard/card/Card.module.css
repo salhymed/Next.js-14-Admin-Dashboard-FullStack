@@ -1,0 +1,38 @@
+.container {
+    background-color: var(--bgSoft);
+    border-radius: 10px;
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem 0.5rem;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.container .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.5rem;
+
+}
+
+.container .icon {
+    font-size: 1.5rem;
+}
+
+.content .number {
+    font-size: 1rem;
+}
+
+.content .text {
+    font-size: 0.9rem;
+    font-weight: 200;
+}
+
+.positive {
+    color: lime;
+}
+
+.negative {
+    color: tomato;
+}
