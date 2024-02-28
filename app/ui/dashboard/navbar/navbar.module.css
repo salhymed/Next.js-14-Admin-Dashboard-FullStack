@@ -14,25 +14,6 @@
     gap: 1.5rem;
 }
 
-.menu .search {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    background-color: var(--bg);
-    border: 1px solid #4c5372;
-    border-radius: 5px;
-    padding: 5px;
-}
-
-.search input,
-.search input:focus,
-.search input:focus-visible {
-    background-color: transparent;
-    color: var(--text);
-    border: none;
-    outline: none;
-}
-
 .icons {
     font-size: 1.5rem;
     display: flex;

@@ -1,8 +1,9 @@
 "use client"
 import React from 'react'
 import styles from './navbar.module.css'
-import { MdMessage, MdNotifications, MdSearch, MdSupervisedUserCircle } from 'react-icons/md'
+import { MdMessage, MdNotifications, MdSupervisedUserCircle } from 'react-icons/md'
 import { usePathname } from 'next/navigation'
+import SearchBox from '../../common/search/SearchBox'
 
 const Navbar = () => {
   const pathname = usePathname().split("/").pop().toUpperCase()
@@ -12,12 +13,7 @@ const Navbar = () => {
         <span>{pathname}</span>
       </div>
       <div className={styles.menu}>
-        <div className={styles.search}>
-          <span className={styles.icon}>
-            <MdSearch />
-          </span>
-          <input type="text" placeholder='search' />
-        </div>
+        <SearchBox placeholder="search" />
         <div className={styles.icons}>
           <MdMessage />
           <MdNotifications />

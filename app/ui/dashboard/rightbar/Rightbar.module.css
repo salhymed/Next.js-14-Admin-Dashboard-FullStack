@@ -50,22 +50,3 @@
     text-align: center;
 }
 
-.btn {
-    width: fit-content;
-    display: flex;
-    padding: 0.5rem 1rem;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    color: white;
-    gap: 5px;
-    background-color: darkorchid;
-    border-radius: 5px;
-    border: none;
-}
-
-.btn:hover {
-    transform: scale(1.01);
-    border: 1px solid var(--textSoft);
-    cursor: pointer;
-}
